@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#D6D3F6">
+
+    <RelativeLayout
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@drawable/gray_bottom_border"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:fontFamily="@font/martel_bold"
+            android:text="English"
+            android:textColor="#000"
+            android:textSize="17sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:textColor="#000"
+            android:textSize="17sp" />
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/toolbar">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#8F87DF"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="130dp">
+
+                <com.example.forlang2.Utils.CustomProgressBar
+                    android:id="@+id/basic_bar"
+                    style="@style/lesson_bar"
+                    android:layout_centerInParent="true" />
+
+                <TextView
+                    android:id="@+id/txtBase"
+                    style="@style/lesson_bar_text"
+                    android:layout_below="@id/basic_bar"
+                    android:layout_centerHorizontal="true"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:fontFamily="@font/martel_bold"
+                    android:text="Базовые" />
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="110dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_weight="1">
+
+                    <com.example.forlang2.Utils.CustomProgressBar
+                        android:id="@+id/phrases_bar"
+                        style="@style/lesson_bar"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginEnd="23dp" />
+
+                    <TextView
+                        android:id="@+id/txtFraze"
+                        style="@style/lesson_bar_text"
+                        android:layout_below="@id/phrases_bar"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginTop="1dp"
+                        android:layout_marginEnd="31dp"
+                        android:fontFamily="@font/martel_bold"
+                        android:text="Фразы" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="110dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_weight="1">
+
+                    <com.example.forlang2.Utils.CustomProgressBar
+                        android:id="@+id/greeting_bar"
+                        style="@style/lesson_bar"
+                        android:layout_alignParentStart="true"
+                        android:layout_marginStart="28dp" />
+
+                    <TextView
+                        android:id="@+id/txtGreetings"
+                        style="@style/lesson_bar_text"
+                        android:layout_below="@id/greeting_bar"
+                        android:layout_alignParentStart="true"
+                        android:layout_marginStart="7dp"
+                        android:layout_marginTop="2dp"
+                        android:fontFamily="@font/martel_bold"
+                        android:paddingStart="5dp"
+                        android:text="Приветствия" />
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="110dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_weight="1">
+
+                    <com.example.forlang2.Utils.CustomProgressBar
+                        android:id="@+id/food_bar"
+                        style="@style/lesson_bar"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginEnd="23dp" />
+
+                    <TextView
+                        android:id="@+id/txtFood"
+                        style="@style/lesson_bar_text"
+                        android:layout_below="@+id/food_bar"
+                        android:layout_alignStart="@+id/food_bar"
+                        android:layout_marginStart="22dp"
+                        android:layout_marginTop="0dp"
+                        android:fontFamily="@font/martel_bold"
+                        android:text="Еда" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="110dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_weight="1">
+
+                    <com.example.forlang2.Utils.CustomProgressBar
+                        android:id="@+id/animal_bar"
+                        style="@style/lesson_bar"
+                        android:layout_alignParentStart="true"
+                        android:layout_marginStart="29dp" />
+
+                    <TextView
+                        android:id="@+id/txtAnimals"
+                        style="@style/lesson_bar_text"
+                        android:layout_below="@+id/animal_bar"
+                        android:layout_alignParentStart="true"
+                        android:layout_marginStart="22dp"
+                        android:layout_marginTop="1dp"
+                        android:fontFamily="@font/martel_bold"
+                        android:text="Животные" />
+
+                </RelativeLayout>
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:layout_marginTop="8dp">
+
+                <com.example.forlang2.Utils.CustomProgressBar
+                    android:id="@+id/clothing_bar"
+                    style="@style/lesson_bar"
+                    android:layout_centerInParent="true" />
+
+                <TextView
+                    android:id="@+id/txtClothes"
+                    style="@style/lesson_bar_text"
+                    android:layout_below="@id/clothing_bar"
+                    android:layout_centerHorizontal="true"
+                    android:fontFamily="@font/martel_bold"
+                    android:text="Одежда" />
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="110dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_weight="1">
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/translator"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="35dp"
+                        android:background="@drawable/button_task_continue"
+                        android:fontFamily="@font/martel_bold"
+                        android:text="переводчик"
+                        android:textColor="@color/white_text"
+                        android:textSize="17sp" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="110dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_weight="1">
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/btnDictionary"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_gravity="center"
+
+                        android:layout_marginBottom="17dp"
+                        android:background="@drawable/button_task_continue"
+                        android:fontFamily="@font/martel_bold"
+                        android:text="словарь"
+                        android:textColor="@color/white_text"
+                        android:textSize="17sp" />
+
+                </RelativeLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.forlang2">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <queries>
+        <intent>
+            <action android:name="android.intent.action.TTS_SERVICE" />
+        </intent>
+    </queries>
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/ic_baseline_language_app"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ic_baseline_language_app"
+        android:usesCleartextTraffic="true"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ForLang2"
+        tools:targetApi="31">
+        <activity
+            android:name=".SplashScreenActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SignInActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.SelectLanguage.ChooseLang"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.DailyGoal.PickDailyGoalActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.lessonlistactivity.LessonListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.LessonCompletedActivity.LessonCompletedActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Tasks.TranslateSentence.TSTaskActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Tasks.TranslateSentence.TSTaskActivityFood"
+            android:exported="false" />
+        <activity
+            android:name=".Tasks.TranslateSentence.TSTaskActivityAnimals"
+            android:exported="false" />
+        <activity
+            android:name=".Tasks.TranslateSentence.TSTaskActivityClothes"
+            android:exported="false" />
+        <activity
+            android:name=".Tasks.TranslateSentence.TSTaskActivityFraze"
+            android:exported="false" />
+        <activity
+            android:name=".Tasks.TranslateSentence.TSTaskActivityGreetings"
+            android:exported="false" />
+        <activity
+            android:name=".Tasks.WordTask.WordTaskActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Tasks.WordTask.WordTaskActivityFood"
+            android:exported="false" />
+        <activity
+            android:name=".Tasks.WordTask.WordTaskActivityAnimals"
+            android:exported="false" />
+        <activity
+            android:name=".Tasks.WordTask.WordTaskActivityClothes"
+            android:exported="false" />
+        <activity
+            android:name=".Tasks.WordTask.WordTaskActivityFraze"
+            android:exported="false" />
+        <activity
+            android:name=".Tasks.WordTask.WordTaskActivityGreetings"
+            android:exported="false" />
+        <activity
+            android:name=".Tasks.TapPairActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Tasks.TapPairActivityFood"
+            android:exported="false" />
+        <activity
+            android:name=".Tasks.TapPairActivityAnimals"
+            android:exported="false" />
+        <activity
+            android:name=".Tasks.TapPairActivityClothes"
+            android:exported="false" />
+        <activity
+            android:name=".Tasks.TapPairActivityFraze"
+            android:exported="false" />
+        <activity
+            android:name=".Tasks.TapPairActivityGreetings"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.ChooseLesson.ChooseLesson"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.ChooseLesson.ChooseLessonFood"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.ChooseLesson.ChooseLessonFraze"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.ChooseLesson.ChooseLessonGreetings"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.ChooseLesson.ChooseLessonAnimals"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.ChooseLesson.ChooseLessonClothes"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.Translator.TranslatorActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.LearnText.LearnTextActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.LearnText.LearnTextActivityFraze"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.LearnText.LearnTextActivityFood"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.LearnText.LearnTextActivityAnimals"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.LearnText.LearnTextActivityGreetings"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.LearnText.LearnTextActivityClothes"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.Dictionary.DictionaryActivity"
+            android:exported="false" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+</manifest>

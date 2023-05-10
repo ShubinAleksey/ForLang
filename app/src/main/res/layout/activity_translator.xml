@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#D6D3F6">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/ic_language_icon"
+                android:layout_gravity="center"
+                android:layout_marginEnd="4dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Переводчик"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_marginStart="4dp"
+                android:textSize="24sp"
+                android:layout_gravity="center" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="40dp"
+            android:weightSum="3"
+            android:background="@drawable/translator_background"
+            android:elevation="4dp"
+            >
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="0dp"
+                android:text="Russian"
+                android:background="@drawable/button_task_continue"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:id="@+id/sourceLanguageChooseBtn"
+                android:layout_margin="3dp"
+                android:padding="3dp"
+                android:gravity="center"
+                />
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/ic_baseline_compare_arrows_24"
+                android:layout_gravity="center"
+                />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="0dp"
+                android:text="English"
+                android:background="@drawable/button_task_continue"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:id="@+id/destinationLanguageChooseBtn"
+                android:layout_margin="3dp"
+                android:padding="3dp"
+                android:gravity="center"
+                />
+
+        </LinearLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            app:hintEnabled="false"
+            android:padding="5dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            app:boxBackgroundMode="none"
+            android:elevation="8dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/sourceLanguageEt"
+                android:hint="Введите текст"
+                android:ems="10"
+                android:importantForAutofill="no"
+                android:inputType="textMultiLine|textImeMultiLine"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:gravity="top"
+                android:background="@drawable/translator_background"
+                android:textColorHint="@color/blueSecondaryTranslator"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:id="@+id/translateBtn"
+            android:text="Перевести"
+            android:background="@drawable/button_task_continue"
+            android:textSize="20sp"
+            android:textAllCaps="false"/>
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/destinationLanguageTv"
+                android:text="Переведенный текст тут"
+                android:background="@drawable/translator_background"
+                android:elevation="3dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:gravity="center"
+                android:textAlignment="center"
+                android:padding="16dp"
+                android:textSize="17sp"
+                android:textColor="@color/purpleTranslator"
+                android:letterSpacing="0.03"
+                android:visibility="gone"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Или"
+            android:textSize="17sp"
+            android:textColor="@color/darkBlueTranslator"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp" />
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/ic_baseline_mic_24"
+            android:padding="4dp"
+            android:id="@+id/idIVMic"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Преобразование речи в текст"
+            android:textSize="17sp"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:layout_marginTop="10dp" />
+
+    </LinearLayout>
+
+</ScrollView>

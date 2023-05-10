@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/mrabd/AndroidStudioProjects/ForLang2/app/src/main/res/drawable-v24/ic_language_iconApp.xml" value="0.1585" />
+        <entry key="..\:/Users/mrabd/AndroidStudioProjects/ForLang2/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.233" />
+        <entry key="..\:/Users/mrabd/AndroidStudioProjects/ForLang2/app/src/main/res/drawable/background.xml" value="0.2265" />
+        <entry key="..\:/Users/mrabd/AndroidStudioProjects/ForLang2/app/src/main/res/drawable/btn_loginlayout.xml" value="0.233" />
+        <entry key="..\:/Users/mrabd/AndroidStudioProjects/ForLang2/app/src/main/res/drawable/btn_registerlayout.xml" value="0.233" />
+        <entry key="..\:/Users/mrabd/AndroidStudioProjects/ForLang2/app/src/main/res/drawable/button_task_check.xml" value="0.236" />
+        <entry key="..\:/Users/mrabd/AndroidStudioProjects/ForLang2/app/src/main/res/drawable/button_task_continue.xml" value="0.2575" />
+        <entry key="..\:/Users/mrabd/AndroidStudioProjects/ForLang2/app/src/main/res/drawable/custom_word_border.xml" value="0.236" />
+        <entry key="..\:/Users/mrabd/AndroidStudioProjects/ForLang2/app/src/main/res/drawable/custom_word_selected.xml" value="0.236" />
+        <entry key="..\:/Users/mrabd/AndroidStudioProjects/ForLang2/app/src/main/res/drawable/gray_bottom_border.xml" value="0.1745" />
+        <entry key="..\:/Users/mrabd/AndroidStudioProjects/ForLang2/app/src/main/res/drawable/ic_back_button.xml" value="0.2575" />
+        <entry key="..\:/Users/mrabd/AndroidStudioProjects/ForLang2/app/src/main/res/drawable/ic_baseline_language_app.xml" value="0.1585" />
+        <entry key="..\:/Users/mrabd/AndroidStudioProjects/ForLang2/app/src/main/res/drawable/ic_baseline_mic_24.xml" value="0.1585" />
+        <entry key="..\:/Users/mrabd/AndroidStudioProjects/ForLang2/app/src/main/res/drawable/ic_language_icon.xml" value="0.2575" />
+        <entry key="..\:/Users/mrabd/AndroidStudioProjects/ForLang2/app/src/main/res/drawable/ic_task_close.xml" value="0.1585" />
+        <entry key="..\:/Users/mrabd/AndroidStudioProjects/ForLang2/app/src/main/res/drawable/recycler_view_adapter.xml" value="0.2575" />
+        <entry key="..\:/Users/mrabd/AndroidStudioProjects/ForLang2/app/src/main/res/drawable/recycler_view_divider.xml" value="0.1585" />
+        <entry key="..\:/Users/mrabd/AndroidStudioProjects/ForLang2/app/src/main/res/drawable/translator_background.xml" value="0.1585" />
+        <entry key="..\:/Users/mrabd/AndroidStudioProjects/ForLang2/app/src/main/res/layout/activity_chooselang.xml" value="0.264" />
+        <entry key="..\:/Users/mrabd/AndroidStudioProjects/ForLang2/app/src/main/res/layout/activity_chooselearning.xml" value="0.24048913043478262" />
+        <entry key="..\:/Users/mrabd/AndroidStudioProjects/ForLang2/app/src/main/res/layout/activity_chooselesson.xml" value="0.22056159420289856" />
+        <entry key="..\:/Users/mrabd/AndroidStudioProjects/ForLang2/app/src/main/res/layout/activity_choosetheme.xml" value="0.24048913043478262" />
+        <entry key="..\:/Users/mrabd/AndroidStudioProjects/ForLang2/app/src/main/res/layout/activity_choosethemedictionary.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/mrabd/AndroidStudioProjects/ForLang2/app/src/main/res/layout/activity_choosethemetext.xml" value="0.14635416666666667" />
+        <entry key="..\:/Users/mrabd/AndroidStudioProjects/ForLang2/app/src/main/res/layout/activity_daily_goal.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/mrabd/AndroidStudioProjects/ForLang2/app/src/main/res/layout/activity_dictionary.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/mrabd/AndroidStudioProjects/ForLang2/app/src/main/res/layout/activity_dictionarylearning.xml" value="0.24048913043478262" />
+        <entry key="..\:/Users/mrabd/AndroidStudioProjects/ForLang2/app/src/main/res/layout/activity_dictionarylearninganimals.xml" value="0.253125" />
+        <entry key="..\:/Users/mrabd/AndroidStudioProjects/ForLang2/app/src/main/res/layout/activity_dictionarylearningfood.xml" value="0.264" />
+        <entry key="..\:/Users/mrabd/AndroidStudioProjects/ForLang2/app/src/main/res/layout/activity_dictionarylearningplants.xml" value="0.253125" />
+        <entry key="..\:/Users/mrabd/AndroidStudioProjects/ForLang2/app/src/main/res/layout/activity_learntext.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/mrabd/AndroidStudioProjects/ForLang2/app/src/main/res/layout/activity_lesson_completed.xml" value="0.153125" />
+        <entry key="..\:/Users/mrabd/AndroidStudioProjects/ForLang2/app/src/main/res/layout/activity_lesson_list.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/mrabd/AndroidStudioProjects/ForLang2/app/src/main/res/layout/activity_main.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/mrabd/AndroidStudioProjects/ForLang2/app/src/main/res/layout/activity_signin.xml" value="0.19021739130434784" />
+        <entry key="..\:/Users/mrabd/AndroidStudioProjects/ForLang2/app/src/main/res/layout/activity_splashscreen.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/mrabd/AndroidStudioProjects/ForLang2/app/src/main/res/layout/activity_tap_pair.xml" value="0.253125" />
+        <entry key="..\:/Users/mrabd/AndroidStudioProjects/ForLang2/app/src/main/res/layout/activity_textlearning.xml" value="0.24048913043478262" />
+        <entry key="..\:/Users/mrabd/AndroidStudioProjects/ForLang2/app/src/main/res/layout/activity_textlearninganimals.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/mrabd/AndroidStudioProjects/ForLang2/app/src/main/res/layout/activity_textlearningfood.xml" value="0.253125" />
+        <entry key="..\:/Users/mrabd/AndroidStudioProjects/ForLang2/app/src/main/res/layout/activity_textlearningplants.xml" value="0.253125" />
+        <entry key="..\:/Users/mrabd/AndroidStudioProjects/ForLang2/app/src/main/res/layout/activity_translate_sentence.xml" value="0.153125" />
+        <entry key="..\:/Users/mrabd/AndroidStudioProjects/ForLang2/app/src/main/res/layout/activity_translator.xml" value="0.264" />
+        <entry key="..\:/Users/mrabd/AndroidStudioProjects/ForLang2/app/src/main/res/layout/activity_word_task.xml" value="0.264" />
+        <entry key="..\:/Users/mrabd/AndroidStudioProjects/ForLang2/app/src/main/res/layout/layout_login.xml" value="0.24048913043478262" />
+        <entry key="..\:/Users/mrabd/AndroidStudioProjects/ForLang2/app/src/main/res/layout/layout_register.xml" value="0.24048913043478262" />
+        <entry key="..\:/Users/mrabd/AndroidStudioProjects/ForLang2/app/src/main/res/layout/select_course_item.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/mrabd/AndroidStudioProjects/ForLang2/app/src/main/res/layout/spinner_item.xml" value="0.22056159420289856" />
+        <entry key="..\:/Users/mrabd/AndroidStudioProjects/ForLang2/app/src/main/res/layout/task_default_body.xml" value="0.2" />
+        <entry key="..\:/Users/mrabd/AndroidStudioProjects/ForLang2/app/src/main/res/layout/task_default_body_text.xml" value="0.253125" />
+        <entry key="..\:/Users/mrabd/AndroidStudioProjects/ForLang2/app/src/main/res/layout/tasks_progress_bar.xml" value="0.253125" />
+        <entry key="..\:/Users/mrabd/AndroidStudioProjects/ForLang2/app/src/main/res/layout/week_progress_bar.xml" value="0.15208333333333332" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
